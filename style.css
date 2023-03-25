@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 * {
   margin: 0px;
@@ -17,7 +18,10 @@
   min-height: 40px;
   gap: 8px 15px;
   justify-content: space-between;
-  padding: 25px 230px;
+  padding: 15px 230px;
+}
+.logoMestre{
+  width: 270px;
 }
 .groupButtonHeader {
   display: flex;
