@@ -152,6 +152,9 @@
   font-size: 15px;
   font-weight: bolder;
 }
+.paragraphDescription{
+  text-align: justify;
+}
 .paragraphDescription2 {
   text-align: center;
   padding: 10px 0px;
