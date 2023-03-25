@@ -73,6 +73,7 @@
   flex: 1 0 auto;
   padding: 0px 230px;
   gap: 30px;
+  margin-bottom: 30px;
 }
 .mainContentTeamsImg {
   width: 80px;
@@ -176,7 +177,6 @@
   padding: 10px;
   border-radius: 5px;
   min-height: 180px;
-  margin-bottom: 30px;
 }
 /*fim card betting*/
 
