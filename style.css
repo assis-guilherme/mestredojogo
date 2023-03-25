@@ -117,6 +117,7 @@
 .mainContentDescription {
   padding: 15px 10px;
   font-size: 16px;
+  text-align: justify;
 }
 .categoryDescription {
   background-color: white;
