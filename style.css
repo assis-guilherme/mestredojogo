@@ -149,11 +149,14 @@
   justify-content: center;
 }
 .sidebarTitle {
+  text-align: center;
   font-size: 15px;
   font-weight: bolder;
+  font-size: 20px;
 }
 .paragraphDescription {
   text-align: justify;
+  padding-top: 10px;
 }
 .paragraphDescription2 {
   text-align: center;
@@ -188,26 +191,69 @@
 }
 /*fim card betting*/
 
-/*media query*/
-@media (max-width: 1000px) {
-  .gridContainer {
-    padding: 0px 100px;
-  }
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+/*footer*/
+.footer{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas: "footballPredictons aboutUsAndSocialMedia";
+  padding: 30px 230px;
+  background-color: #4A525D;
+  color: white;
 }
-@media (max-width: 890px) {
-  .header {
+.footerTitle{
+  font-size: 20px;
+  font-weight: bolder;
+}
+.predictionsTopics{
+  text-decoration: none;
+  color: white;
+  padding: 1px;
+}
+.groupBtnSocialMedia{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btnSocialMedia{
+  max-width: 150px;
+  padding: 6px;
+  background-color: white;
+  color: #dd3333;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.line{
+  margin: 15px 0px 15px 0px;
+}
+.aboutUs{
+  text-decoration: none ;
+  color: white;
+  padding: 1px;
+}
+/*fim footer*/
+
+/*media query*/
+@media (max-width: 1068px) {
+  .header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+   .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
-
+@media (max-width: 1000px) {
+  .gridContainer {
+    padding: 0px 100px;
+  }
+  .footer{
+    padding: 30px 100px;
+  }
+}
 @media (max-width: 790px) {
   .gridContainer {
     padding: 0px 50px;
@@ -218,16 +264,35 @@
   .navbar {
     padding: 10px 0px;
   }
+  .footer{
+    padding: 30px 50px;
+  }
   .topicsTitle {
     font-size: 14px;
   }
 }
 @media (max-width: 730px) {
   .gridContainer {
-    display: grid;
-    grid-template-areas: "mainContent sidebarContent";
     display: flex;
     flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 560px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px 0px;
+  }
+  .footballPredictons{
+    text-align: center;
+  }
+  .aboutUsAndSocialMedia{
+    text-align: center;
+  }
+  .btnSocialMedia{
+    margin: 0px auto 0px auto;
   }
 }
 @media (max-width: 460px) {
@@ -239,10 +304,23 @@
   .mainContentTitle {
     font-size: 15px;
   }
+  .logoMestre {
+    width: 210px;
+  }
   .btnHeader {
     font-size: 13px;
+    font-weight: bolder;
     padding: 5px;
   }
 }
-
+@media (max-width: 314px) {
+ .buttonNavbar{
+  padding: 4px;
+  font-size: 13px;
+ }
+ .mainContentTitle{
+  font-size: 13px;
+  padding: 6px;
+ }
+}
 /*fim media query*/
