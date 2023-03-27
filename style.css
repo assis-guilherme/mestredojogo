@@ -220,10 +220,14 @@
   background-color: white;
   color: #dd3333;
   font-weight: bolder;
+  border-radius: 5px;
   cursor: pointer;
 }
 .line{
   margin: 15px 0px 15px 0px;
+}
+.line2{
+  display: none;
 }
 .aboutUs{
   text-decoration: none ;
@@ -293,6 +297,9 @@
   }
   .btnSocialMedia{
     margin: 0px auto 0px auto;
+  }
+  .line2{
+    display: block;
   }
 }
 @media (max-width: 460px) {
