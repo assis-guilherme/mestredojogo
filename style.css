@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
 * {
   margin: 0px;
@@ -20,7 +20,7 @@
   justify-content: space-between;
   padding: 15px 230px;
 }
-.logoMestre{
+.logoMestre {
   width: 270px;
 }
 .groupButtonHeader {
@@ -152,7 +152,7 @@
   font-size: 15px;
   font-weight: bolder;
 }
-.paragraphDescription{
+.paragraphDescription {
   text-align: justify;
 }
 .paragraphDescription2 {
@@ -188,8 +188,6 @@
 }
 /*fim card betting*/
 
-
-
 /*media query*/
 @media (max-width: 1000px) {
   .gridContainer {
@@ -220,12 +218,12 @@
   .navbar {
     padding: 10px 0px;
   }
-  .topicsTitle{
+  .topicsTitle {
     font-size: 14px;
   }
 }
 @media (max-width: 730px) {
-  .gridContainer{
+  .gridContainer {
     display: grid;
     grid-template-areas: "mainContent sidebarContent";
     display: flex;
@@ -238,10 +236,10 @@
   }
 }
 @media (max-width: 441px) {
-  .mainContentTitle{
+  .mainContentTitle {
     font-size: 15px;
   }
-  .btnHeader{
+  .btnHeader {
     font-size: 13px;
     padding: 5px;
   }
